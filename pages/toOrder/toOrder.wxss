@@ -1,0 +1,45 @@
+/*表单区域*/
+.order-item{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  border-bottom: 1px #35495D solid;
+  line-height: 40px;
+}
+.order-item text{
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 10px;
+  width: 80px;
+}
+.order-item input{
+  margin-top: 8px;
+  margin-left: 70px;
+  border: 1px gray solid;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #35495D;
+}
+/*表单按钮*/
+.order-btn{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+button{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  border: 1px whitesmoke solid;
+}
+.reset{
+  color: orangered;
+}
+.submit{
+  background-color: orangered;
+  color: white;
+}

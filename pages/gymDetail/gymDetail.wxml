@@ -1,0 +1,42 @@
+<!--图片展示-->
+<swiper indicator-dots indicator-color="black" indicator-active-color="#35495D" autoplay interval="4000" duration="2000">
+  <block wx:for="{{swiper}}">
+    <swiper-item>
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!--详细信息-->
+<view>
+  <text class="gym-name">广工大操场</text>
+  <view class="gym-content">
+    <text>简介：{{content}}</text>
+  </view>
+  <view class="gym-other">
+    <image src="/pages/images/address.png"></image>
+    <text class="gym-other">场馆地址：广东工业大学龙洞校区</text>
+  </view>
+  <view class="gym-other">
+    <image src="/pages/images/time.png"></image>
+    <text class="gym-other">营业时间：08:00-22:00</text>
+  </view>
+  <view class="gym-other">
+    <image src="/pages/images/qiuchang.png"></image>
+    <text class="gym-other">球场数量：20场</text>
+  </view>
+  <view class="gym-other">
+    <image src="/pages/images/money.png"></image>
+    <text class="gym-other">人均价格：0元/时</text>
+  </view>
+  <view class="gym-other">
+    <image src="/pages/images/phone.png"></image>
+    <text class="gym-other">联系号码：13054489935</text>
+  </view>
+</view>
+<!--点击预约-->
+<view class="order-view">
+  <navigator class="tel">客服咨询</navigator>
+  <navigator class="order" url="/pages/toOrder/toOrder">预约场地</navigator>
+</view>
+
+

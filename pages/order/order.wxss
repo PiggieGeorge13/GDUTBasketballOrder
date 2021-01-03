@@ -1,0 +1,117 @@
+/*tabbar*/
+/*.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: white;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tab-bar-border {
+  background-color: rgba(0, 0, 0, 0.33);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleY(0.5);
+}
+
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-bar-item .cover-image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.tab-bar-item .cover-view {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+}*/
+/*搜索区域*/
+.searchBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+input{
+  margin: 5px;
+  padding: 2px;
+  width: 90%;
+  height: 15px;
+  font-size: 13.5px;
+  font-weight: bold;
+  color: #35495D;
+  text-align: center;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+.searchBar image{
+  margin: 5px;
+  width: 30px;
+}
+/*轮播图区域*/
+swiper{
+  margin: 5px;
+  padding: 5px;
+  height: 400rpx;
+}
+swiper-item image{
+  width: 100%;
+  height: 400rpx;
+}
+/*场馆列表*/
+.orderList{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.orderItem{
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+}
+.orderItem image{
+  width: 110px;
+  height: 110px;
+  margin-right: 10px;
+}
+.gym-summary{
+  display: flex;
+  flex-direction: column;
+}
+.gym-name{
+  font-weight: bold;
+  color: #35495D;
+  border-bottom: #35495D;
+  margin-bottom: 5px;
+}
+.gym-other{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 3px;
+}
+.gym-other image{
+  width: 15px;
+  height: 15px;
+}

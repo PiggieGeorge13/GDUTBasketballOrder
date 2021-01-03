@@ -1,0 +1,71 @@
+/*图片展示*/
+swiper{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+swiper image{
+  width: 100%;
+  height: 100%;
+}
+/*详细信息*/
+.gym-name{
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #35495D;
+}
+.gym-content{
+  margin: 10px;
+  text-align: left;
+  font-size: 13px;
+  color: rgba(34, 31, 31, 0.781);
+}
+.gym-other{
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 3px;
+}
+.gym-other image{
+  margin: 0px 10px;
+  width: 18px;
+  height: 18px;
+}
+/*点击预约*/
+.order-view{
+  display: flex;
+  flex-direction: row;
+}
+.tel{
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  color: orangered;
+  border: 1px whitesmoke solid;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.order{
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  background-color: orangered;
+  border: 1px whitesmoke solid;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+
+

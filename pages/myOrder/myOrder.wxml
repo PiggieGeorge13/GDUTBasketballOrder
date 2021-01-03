@@ -1,0 +1,42 @@
+<block wx:for="{{paylist}}" wx:key="{{item.ordernum}}">
+<view class="orderList">
+  <view class="orderItem">
+    <image src="/pages/images/longdong-gym.jpg"></image>
+    <view class="gym-summary">
+      <text class="gym-name">广工大操场</text>
+      <view class="gym-other">
+        <image src="/pages/images/address.png"></image>
+        <text class="gym-other">订单编号：{{item.ordernum}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/time.png"></image>
+        <text class="gym-other">下单时间：{{item.ordertime}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/people.png"></image>
+        <text class="gym-other">预约者姓名：{{item.nickname}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/phone.png"></image>
+        <text class="gym-other">联系方式：{{item.phonenum}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/time.png"></image>
+        <text class="gym-other">预约时间：{{item.appointmenttime}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/qiuchang.png"></image>
+        <text class="gym-other">预约人数：{{item.appointmentnum}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/money.png"></image>
+        <text class="gym-other">实付金额：{{item.moneynum}}</text>
+      </view>
+      <view class="gym-other">
+        <image src="/pages/images/money.png"></image>
+        <text class="gym-other">审核状态：{{item.orderstate}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+</block>

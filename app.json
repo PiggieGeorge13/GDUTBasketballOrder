@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/myself-custom/myself-custom",
+    "pages/gymDetail/gymDetail",
+    "pages/toOrder/toOrder",
+    "pages/orderManage/orderManage",
+    "pages/order/order",
+    "pages/myOrder/myOrder",
+    "pages/orderManage/orderDeatail/orderDeatail",
+    "pages/moneyManage/moneyManage",
+    "pages/myself/myself",
+    "pages/myself/myMoney/myMoney",
+    "pages/myself/myMoney/moneyDeatail/moneyDeatail",
+    "pages/myself/modifyPassword/modifyPassword",
+    "pages/myself/directionsForUse/directionsForUse",
+    "pages/myself/feedBack/feedBack",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#35495D",
+    "navigationBarTitleText": "广工约球吧",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color": "#888888",
+    "selectedColor": "#09BB07",
+    "backgroundColor": "",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/order/order",
+        "text": "预约场馆",
+        "iconPath": "pages/images/qiuchang_gray.png",
+        "selectedIconPath": "pages/images/qiuchang_selected.png"
+      },
+      {
+        "pagePath": "pages/orderManage/orderManage",
+        "text": "订单管理",
+        "iconPath": "pages/images/order.png",
+        "selectedIconPath": "pages/images/order_r.png"
+      },
+      {
+        "pagePath": "pages/moneyManage/moneyManage",
+        "text": "财务管理",
+        "iconPath": "pages/images/money.png",
+        "selectedIconPath": "pages/images/money_r.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的账户",
+        "iconPath": "pages/images/people.png",
+        "selectedIconPath": "pages/images/people_r.png"
+      },
+      {
+        "pagePath": "pages/myself-custom/myself-custom",
+        "text": "个人中心",
+        "iconPath": "pages/images/people.png",
+        "selectedIconPath": "pages/images/people_r.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

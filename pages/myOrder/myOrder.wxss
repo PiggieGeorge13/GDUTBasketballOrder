@@ -1,0 +1,43 @@
+.orderList{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.orderItem{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+}
+.orderItem image{
+  width: 110px;
+  height: 110px;
+  margin-right: 10px;
+}
+.gym-summary{
+  display: flex;
+  flex-direction: column;
+}
+.gym-name{
+  font-weight: bold;
+  color: #35495D;
+  border-bottom: #35495D;
+  margin-bottom: 5px;
+}
+.gym-other{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 3px;
+}
+.gym-other image{
+  width: 15px;
+  height: 15px;
+}

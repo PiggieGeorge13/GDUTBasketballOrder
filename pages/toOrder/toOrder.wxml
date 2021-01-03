@@ -1,0 +1,33 @@
+<form bindsubmit="onSubmit">
+  <!--表单选项-->
+  <view class="order-item">
+    <text>预约场地</text>
+    <input type="text" placeholder="广工大操场" disabled/>
+  </view>
+  <view class="order-item">
+    <text>订单编号</text>
+    <input type="text" bindinput="inputOrderNum"/>
+  </view>
+  <view class="order-item">
+    <text>预约者姓名</text>
+    <input type="text" bindinput="inputOrderName"/>
+  </view>
+  <view class="order-item">
+    <text>预约时间</text>
+    <input type="text" bindinput="inputOrderTime"/>
+  </view>
+  <view class="order-item">
+    <text>预约人数</text>
+    <input type="text" bindinput="inputOrderPnm"/>
+  </view>
+  <view class="order-item">
+    <text>联系方式</text>
+    <input type="text" bindinput="inputOrderTel"/>
+  </view>
+  <!--表单提交和重置-->
+  <view class="order-btn">
+    <button class="reset" form-type="reset">重置</button>
+    <button class="submit" form-type="submit">预约</button>
+  </view>
+</form>
+
